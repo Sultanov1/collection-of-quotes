@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 interface Category {
   title: string;
@@ -7,12 +7,12 @@ interface Category {
 }
 
 const categories: Category[] = [
-  { title: 'All', id: 'all' },
-  { title: 'Star Wars', id: 'star-wars' },
-  { title: 'Famous People', id: 'famous-people' },
-  { title: 'Saying', id: 'saying' },
-  { title: 'Humour', id: 'humour' },
-  { title: 'Motivational', id: 'motivational' },
+  {title: 'All', id: 'all'},
+  {title: 'Star wars', id: 'star-wars'},
+  {title: 'Famous People', id: 'famous-people'},
+  {title: 'Saying', id: 'saying'},
+  {title: 'Humour', id: 'humour'},
+  {title: 'Motivational', id: 'motivational'},
 ];
 
 const CategoryMenu: React.FC = () => (
